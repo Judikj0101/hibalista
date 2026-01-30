@@ -417,6 +417,69 @@
       border-color: var(--success);
     }
 
+    .option-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .option-group-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 1rem;
+      background: var(--bg-tertiary);
+      border-radius: 8px;
+      margin-bottom: 0.75rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: 1px solid var(--border);
+    }
+
+    .option-group-header:hover {
+      background: var(--border);
+    }
+
+    .option-group-title {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .option-group-toggle {
+      font-size: 1.25rem;
+      transition: transform 0.2s ease;
+      color: var(--text-secondary);
+    }
+
+    .option-group-toggle.collapsed {
+      transform: rotate(-90deg);
+    }
+
+    .option-group-content {
+      max-height: 2000px;
+      overflow: hidden;
+      transition: max-height 0.3s ease, opacity 0.3s ease;
+      opacity: 1;
+    }
+
+    .option-group-content.collapsed {
+      max-height: 0;
+      opacity: 0;
+    }
+
+    .option-group-badge {
+      background: var(--accent);
+      color: white;
+      padding: 0.125rem 0.5rem;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+
     .option-checkbox {
       margin-top: 0.25rem;
       width: 18px;
@@ -635,6 +698,77 @@
       background: #fef2f2;
       color: #dc2626;
       border-color: #fecaca;
+    }
+
+    .group-management {
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .group-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .group-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-primary);
+      transition: all 0.2s ease;
+    }
+
+    .group-item:hover {
+      border-color: var(--border-dark);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .group-item input {
+      flex: 1;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.95rem;
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg-secondary);
+      font-weight: 500;
+    }
+
+    .section-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .option-group-selector {
+      margin-bottom: 1rem;
+    }
+
+    .option-group-selector label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      color: var(--text-secondary);
+    }
+
+    .option-group-selector select {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.5rem;
+      font-size: 0.875rem;
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg-secondary);
     }
 
     /* Export View */
@@ -862,40 +996,59 @@
     // Initial State
     const initialState = {
       images: [],
+      optionGroups: [
+        {
+          id: 'group1',
+          name: 'Technical Details',
+          order: 0,
+          collapsed: false
+        },
+        {
+          id: 'group2',
+          name: 'Quality & Safety',
+          order: 1,
+          collapsed: false
+        }
+      ],
       toggleOptions: [
         {
           id: '1',
           label: 'Installation Details',
           content: 'This section documents the installation process, including mounting specifications, hardware used, and environmental conditions at the time of installation.',
           order: 0,
+          groupId: 'group1',
           isActive: true
         },
         {
           id: '2',
-          label: 'Quality Assessment',
-          content: 'Visual inspection results showing the condition of materials, finish quality, and any defects or concerns identified during the assessment.',
+          label: 'Measurements',
+          content: 'Precise dimensional measurements including length, width, height, clearances, and tolerances as per specification documents.',
           order: 1,
+          groupId: 'group1',
           isActive: true
         },
         {
           id: '3',
-          label: 'Safety Compliance',
-          content: 'Documentation of safety standards compliance, including regulatory requirements, certification marks, and safety feature verification.',
+          label: 'Material Specifications',
+          content: 'Detailed material composition, grade specifications, manufacturer information, and certification documentation.',
           order: 2,
+          groupId: 'group1',
           isActive: true
         },
         {
           id: '4',
-          label: 'Measurements',
-          content: 'Precise dimensional measurements including length, width, height, clearances, and tolerances as per specification documents.',
+          label: 'Quality Assessment',
+          content: 'Visual inspection results showing the condition of materials, finish quality, and any defects or concerns identified during the assessment.',
           order: 3,
+          groupId: 'group2',
           isActive: true
         },
         {
           id: '5',
-          label: 'Material Specifications',
-          content: 'Detailed material composition, grade specifications, manufacturer information, and certification documentation.',
+          label: 'Safety Compliance',
+          content: 'Documentation of safety standards compliance, including regulatory requirements, certification marks, and safety feature verification.',
           order: 4,
+          groupId: 'group2',
           isActive: true
         }
       ],
@@ -974,6 +1127,41 @@
               ...img,
               selectedOptions: img.selectedOptions.filter(id => id !== action.payload)
             }))
+          };
+        
+        case 'ADD_GROUP':
+          return {
+            ...state,
+            optionGroups: [...state.optionGroups, action.payload]
+          };
+        
+        case 'UPDATE_GROUP':
+          return {
+            ...state,
+            optionGroups: state.optionGroups.map(group =>
+              group.id === action.payload.id
+                ? { ...group, ...action.payload.updates }
+                : group
+            )
+          };
+        
+        case 'DELETE_GROUP':
+          return {
+            ...state,
+            optionGroups: state.optionGroups.filter(group => group.id !== action.payload),
+            toggleOptions: state.toggleOptions.map(opt =>
+              opt.groupId === action.payload ? { ...opt, groupId: null } : opt
+            )
+          };
+        
+        case 'TOGGLE_GROUP_COLLAPSE':
+          return {
+            ...state,
+            optionGroups: state.optionGroups.map(group =>
+              group.id === action.payload
+                ? { ...group, collapsed: !group.collapsed }
+                : group
+            )
           };
         
         case 'SET_VIEW_MODE':
@@ -1220,27 +1408,97 @@
               </div>
 
               <div className="options-list">
-                {state.toggleOptions.map(option => (
-                  <div
-                    key={option.id}
-                    className={`option-item ${currentImage.selectedOptions.includes(option.id) ? 'selected' : ''}`}
-                    onClick={() => dispatch({
-                      type: 'TOGGLE_OPTION',
-                      payload: { imageId: currentImage.id, optionId: option.id }
-                    })}
-                  >
-                    <input
-                      type="checkbox"
-                      className="option-checkbox"
-                      checked={currentImage.selectedOptions.includes(option.id)}
-                      onChange={() => {}}
-                    />
-                    <div className="option-content">
-                      <div className="option-label">{option.label}</div>
-                      <div className="option-text">{option.content}</div>
+                {state.optionGroups
+                  .sort((a, b) => a.order - b.order)
+                  .map(group => {
+                    const groupOptions = state.toggleOptions
+                      .filter(opt => opt.groupId === group.id)
+                      .sort((a, b) => a.order - b.order);
+                    
+                    const selectedCount = groupOptions.filter(opt => 
+                      currentImage.selectedOptions.includes(opt.id)
+                    ).length;
+
+                    return (
+                      <div key={group.id} className="option-group">
+                        <div 
+                          className="option-group-header"
+                          onClick={() => dispatch({ type: 'TOGGLE_GROUP_COLLAPSE', payload: group.id })}
+                        >
+                          <div className="option-group-title">
+                            <span className={`option-group-toggle ${group.collapsed ? 'collapsed' : ''}`}>
+                              ▼
+                            </span>
+                            {group.name}
+                            {selectedCount > 0 && (
+                              <span className="option-group-badge">{selectedCount}</span>
+                            )}
+                          </div>
+                        </div>
+                        
+                        <div className={`option-group-content ${group.collapsed ? 'collapsed' : ''}`}>
+                          {groupOptions.map(option => (
+                            <div
+                              key={option.id}
+                              className={`option-item ${currentImage.selectedOptions.includes(option.id) ? 'selected' : ''}`}
+                              onClick={() => dispatch({
+                                type: 'TOGGLE_OPTION',
+                                payload: { imageId: currentImage.id, optionId: option.id }
+                              })}
+                            >
+                              <input
+                                type="checkbox"
+                                className="option-checkbox"
+                                checked={currentImage.selectedOptions.includes(option.id)}
+                                onChange={() => {}}
+                              />
+                              <div className="option-content">
+                                <div className="option-label">{option.label}</div>
+                                <div className="option-text">{option.content}</div>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })}
+                
+                {/* Ungrouped options */}
+                {state.toggleOptions.filter(opt => !opt.groupId).length > 0 && (
+                  <div className="option-group">
+                    <div className="option-group-header" style={{ cursor: 'default', background: 'var(--bg-primary)' }}>
+                      <div className="option-group-title">
+                        Uncategorized
+                      </div>
+                    </div>
+                    <div className="option-group-content">
+                      {state.toggleOptions
+                        .filter(opt => !opt.groupId)
+                        .sort((a, b) => a.order - b.order)
+                        .map(option => (
+                          <div
+                            key={option.id}
+                            className={`option-item ${currentImage.selectedOptions.includes(option.id) ? 'selected' : ''}`}
+                            onClick={() => dispatch({
+                              type: 'TOGGLE_OPTION',
+                              payload: { imageId: currentImage.id, optionId: option.id }
+                            })}
+                          >
+                            <input
+                              type="checkbox"
+                              className="option-checkbox"
+                              checked={currentImage.selectedOptions.includes(option.id)}
+                              onChange={() => {}}
+                            />
+                            <div className="option-content">
+                              <div className="option-label">{option.label}</div>
+                              <div className="option-text">{option.content}</div>
+                            </div>
+                          </div>
+                        ))}
                     </div>
                   </div>
-                ))}
+                )}
               </div>
 
               <div className="preview-section">
@@ -1281,6 +1539,7 @@
           label: 'New Option',
           content: 'Enter description here...',
           order: state.toggleOptions.length,
+          groupId: state.optionGroups[0]?.id || null,
           isActive: true
         };
         dispatch({ type: 'ADD_TOGGLE_OPTION', payload: newOption });
@@ -1296,18 +1555,73 @@
         }
       };
 
+      const handleAddGroup = () => {
+        const newGroup = {
+          id: generateId(),
+          name: 'New Group',
+          order: state.optionGroups.length,
+          collapsed: false
+        };
+        dispatch({ type: 'ADD_GROUP', payload: newGroup });
+      };
+
+      const handleUpdateGroup = (id, updates) => {
+        dispatch({ type: 'UPDATE_GROUP', payload: { id, updates } });
+      };
+
+      const handleDeleteGroup = (id) => {
+        if (confirm('Are you sure you want to delete this group? Options will be moved to Uncategorized.')) {
+          dispatch({ type: 'DELETE_GROUP', payload: id });
+        }
+      };
+
       return (
         <div className="modal-overlay" onClick={onClose}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
             <div className="modal-header">
-              <h2>Manage Options</h2>
+              <h2>Manage Options & Groups</h2>
               <button className="modal-close" onClick={onClose}>×</button>
             </div>
 
             <div className="modal-body">
-              <button className="btn btn-primary" onClick={handleAdd} style={{ marginBottom: '1.5rem' }}>
-                + Add New Option
-              </button>
+              {/* Group Management Section */}
+              <div className="group-management">
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+                  <h3 className="section-title">Groups</h3>
+                  <button className="btn btn-secondary" onClick={handleAddGroup} style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}>
+                    + Add Group
+                  </button>
+                </div>
+                
+                <div className="group-list">
+                  {state.optionGroups.map((group) => (
+                    <div key={group.id} className="group-item">
+                      <div className="drag-handle">⋮⋮</div>
+                      <input
+                        type="text"
+                        value={group.name}
+                        onChange={(e) => handleUpdateGroup(group.id, { name: e.target.value })}
+                        placeholder="Group name"
+                      />
+                      <button
+                        className="btn-icon danger"
+                        onClick={() => handleDeleteGroup(group.id)}
+                        title="Delete group"
+                      >
+                        🗑
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Options Section */}
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+                <h3 className="section-title">Options</h3>
+                <button className="btn btn-primary" onClick={handleAdd} style={{ padding: '0.5rem 1rem', fontSize: '0.875rem' }}>
+                  + Add Option
+                </button>
+              </div>
 
               {state.toggleOptions.map((option, index) => (
                 <div key={option.id} className="editable-option">
@@ -1329,6 +1643,20 @@
                       </button>
                     </div>
                   </div>
+                  
+                  <div className="option-group-selector">
+                    <label>Group</label>
+                    <select
+                      value={option.groupId || ''}
+                      onChange={(e) => handleUpdate(option.id, { groupId: e.target.value || null })}
+                    >
+                      <option value="">Uncategorized</option>
+                      {state.optionGroups.map(group => (
+                        <option key={group.id} value={group.id}>{group.name}</option>
+                      ))}
+                    </select>
+                  </div>
+                  
                   <textarea
                     value={option.content}
                     onChange={(e) => handleUpdate(option.id, { content: e.target.value })}
