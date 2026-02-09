@@ -1077,7 +1077,7 @@ input[type="file"] {
           return {
             ...state,
             images: [...state.images, ...action.payload],
-            viewMode: state.images.length === 0 && action.payload.length > 0 ? 'edit' : state.viewMode
+            viewMode: action.payload.length > 0 ? 'edit' : state.viewMode
           };
         
         case 'REMOVE_IMAGE':
