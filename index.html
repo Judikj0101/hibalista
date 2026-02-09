@@ -1225,28 +1225,48 @@ input[type="file"] {
       const [dragActive, setDragActive] = useState(false);
       const fileInputRef = useRef(null);
 
-      const handleFiles = async (files) => {
-        const imageFiles = Array.from(files).filter(file => 
-          file.type.startsWith('image/')
-        );
+const handleFiles = async (files) => {
+  try {
+    console.log('Files received:', files);
+    
+    if (!files || files.length === 0) {
+      console.log('No files selected');
+      return;
+    }
 
-        const processedImages = await Promise.all(
-          imageFiles.map(async (file, index) => {
-            const thumbnail = await createThumbnail(file);
-            return {
-              id: generateId(),
-              file,
-              thumbnail,
-              fullImage: thumbnail,
-              order: state.images.length + index,
-              selectedOptions: [],
-              uploadedAt: new Date()
-            };
-          })
-        );
+    const imageFiles = Array.from(files).filter(file => 
+      file.type.startsWith('image/')
+    );
 
-        dispatch({ type: 'ADD_IMAGES', payload: processedImages });
-      };
+    console.log('Image files filtered:', imageFiles.length);
+
+    if (imageFiles.length === 0) {
+      alert('Please select valid image files (JPG, PNG, GIF)');
+      return;
+    }
+
+    const processedImages = await Promise.all(
+      imageFiles.map(async (file, index) => {
+          const thumbnail = await createThumbnail(file);
+          return {
+            id: generateId(),
+            file,
+            thumbnail,
+            fullImage: thumbnail,
+            order: state.images.length + index,
+            selectedOptions: [],
+            uploadedAt: new Date()
+          };
+        })
+      );
+  
+      console.log('Processed images:', processedImages);
+      dispatch({ type: 'ADD_IMAGES', payload: processedImages });
+    } catch (error) {
+      console.error('Error handling files:', error);
+      alert('Error uploading images: ' + error.message);
+    }
+  };
 
       const handleDrop = (e) => {
         e.preventDefault();
