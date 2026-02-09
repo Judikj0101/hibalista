@@ -1,0 +1,205 @@
+sorszam;rovid_nev;kategoria;reszletes_leiras;jogszabaly;hatosagi_megiteles
+1.1;ékszer viselése;Személyi Higiénia;Gyûrû, karkötõ, óra vagy fülbevaló viselése az élelmiszer-kezelõ területen, ami szennyezõdést okozhat. Tipikus helyzet: szakács karórát visel a fõzõtérben.;;
+1.2;Mobiltelefon a munkafelületen;Személyi Higiénia;Mobiltelefon, kulcs, pénztárca vagy más személyes tárgy elhelyezése a nyersanyag-elõkészí­tõ vagy tálaló munkafelületen. Tipikus helyzet: pultos mobilja a tálalópulton.;;
+1.3;Kézmosás elmulasztása;Személyi Higiénia;Kézmosás elmulasztása a WC használata, dohányzás, takarí­tás, vagy nyers és késztermék közötti munkafolyamat váltása után. Tipikus helyzet: dolgozó a nyers hóús után nem mos kezet, mielõtt a salátához nyóúl.;;
+1.4;Sérülés nem megfelelõ ellátása;Személyi Higiénia;Nyí­ltseb, vágás vagy égés nem ví­zhatlan, jól látható (pl. kék) kötéssel van ellátva, vagy egyáltalán nincs ellátva. Tipikus helyzet: szakács ujján kis vágás, csak egy sima sebtapasz van rajta.;;
+1.5;Dohányzás, étkezés a munkahelyen;Személyi Higiénia;Dohányzás, rágógumizás, étkezés vagy köpködés az élelmiszer-kezelõ területen. Tipikus helyzet: konyhai kisegí­tõ szendvicset eszik a mosogató mellett.;;
+1.6;Betegség eltitkolása;Személyi Higiénia;élelmiszer-kezelõ dolgozó fertõzõ betegség (pl. hasmenés, hányás, sárgaság) tüneteivel dolgozik, és ezt nem jelenti a vezetõnek.;;
+1.7;Hosszóú, lakkozott köröm;Személyi Higiénia;Hosszóú, mûköröm vagy körömlakk viselése az élelmiszer-kezelõ területen, ami szennyezõdést okozhat. Tipikus helyzet: pultos hosszóú, lakkozott körmökkel tálal.;;
+1.8;Kézmosás nem megfelelõ technikája;Személyi Higiénia;A dolgozó nem a megfelelõ, elõí­rt technikával mos kezet (pl. csak leöblí­ti, nem használ szappant, nem dörzsöli a körmök alatti részt).;;Kisebb hiányosság / Figyelmeztetés, oktatás elrendelése.
+1.9;Kézmosás hiánya a nyersanyag átvétele után;Személyi Higiénia;A dolgozó nem mos kezet a szennyezett csomagolásóú nyersanyagok (pl. zöldséges ládák, hóúsos dobozok) átvétele és elhelyezése után.;;Sóúlyos hiányosság / Bí­rság, azonnali intézkedés.
+1.10;élelmiszer-kezelés közbeni tüsszentés/köhögés;Személyi Higiénia;A dolgozó nem fordul el, vagy nem takarja el a száját és orrát tüsszentés/köhögés esetén, vagy nem mos kezet utána.;;
+1.11;Közvetlen kéz-száj/orr érintkezés;Személyi Higiénia;élelmiszer-kezelés közben a dolgozó megnyalja az ujját, vagy megérinti a száját, orrát, majd folytatja a munkát kézmosás nélkül.;;
+1.12;Hátizsák/táska a konyhában;Személyi Higiénia;Személyes tárgyak (pl. hátizsák, táska) tárolása az élelmiszer-kezelõ területen, ami szennyezõdést okozhat. Tipikus helyzet: hátizsák a pulton.;;
+1.13;Hosszóú szakáll/bajusz fedésének hiánya;Személyi Higiénia;Hosszóú szakáll vagy bajusz esetén nem használnak megfelelõ védõeszközt (pl. szakállháló).;;
+1.14;Kézmosás nem megfelelõ hõmérsékletû ví­zzel;Személyi Higiénia;A kézmosóban csak hideg vagy csak forró ví­z folyik, ami akadályozza a megfelelõ kézmosást.;;
+1.15;Kézmosás nem megfelelõ szárí­tása;Személyi Higiénia;Kézmosás után a dolgozó nem szárí­tja meg megfelelõen a kezét, ami elõsegí­ti a baktériumok terjedését.;;
+1.16;élelmiszer-kezelés közbeni evés/ivás;Személyi Higiénia;A dolgozó élelmiszer-kezelés közben eszik vagy iszik, ami nyálcseppekkel szennyezheti az élelmiszert.;;
+1.17;Személyes gyógyszerek tárolása;Személyi Higiénia;Személyes gyógyszerek tárolása az élelmiszer-elõkészí­tõ területen, ami vegyi szennyezõdés kockázatát jelenti.;;
+1.18;Kézmosás elmaradása kesztyûcsere elõtt;Személyi Higiénia;A dolgozó nem mos kezet, mielõtt óúj kesztyût hóúz, ami a szennyezõdés átvitelét okozza.;;Sóúlyos hiányosság / Bí­rság, azonnali intézkedés.
+1.19;Kézmosás elmaradása pénzkezelés után;Személyi Higiénia;A dolgozó pénzkezelés után nem mos kezet, mielõtt élelmiszerhez nyóúl.;;Sóúlyos hiányosság / Bí­rság, azonnali intézkedés.
+1.20;Személyes élelmiszer tárolása vendégeknek szánt élelmiszer mellett;Személyi Higiénia;A dolgozók személyes élelmiszereit nem elkülöní­tve tárolják a vendégeknek szánt élelmiszerektõl.;;
+1.21;Sérülés nem megfelelõ ellátása;Személyi Higiénia;Nyí­lt seb, vágás vagy égés nem ví­zhatlan, jól látható (pl. kék) kötéssel van ellátva, vagy egyáltalán nincs ellátva.;;
+1.22;Kézmosás elmulasztása WC használat után;Személyi Higiénia;A dolgozó nem mos kezet a WC használata után.;;
+1.23;Kézmosás elmaradása a takarí­tás után;Személyi Higiénia;A dolgozó nem mos kezet a takarí­tási feladatok elvégzése után.;;Sóúlyos hiányosság / Bí­rság, azonnali intézkedés.
+1.24;Kézmosás elmaradása a hulladékkezelés után;Személyi Higiénia;A dolgozó nem mos kezet a hulladékgyûjtõ edények ürí­tése vagy kezelése után.;;Sóúlyos hiányosság / Bí­rság, azonnali intézkedés.
+1.25;Kézmosás elmaradása a nyers és készétel közötti váltáskor;Személyi Higiénia;A dolgozó nem mos kezet a nyers hóús kezelése után, mielõtt a készételhez nyóúl.;;Sóúlyos élelmiszerbiztonsági kockázat / Jelentõs bí­rság, a termék megsemmisí­tése.
+1.26;élelmiszer-kezelés közbeni rágógumizás;Személyi Higiénia;Rágógumizás az élelmiszer-kezelõ területen, ami nyálcseppekkel szennyezheti az élelmiszert.;;
+1.27;Hosszóú, lógó haj;Személyi Higiénia;A haj nincs teljesen a hajháló/sapka alatt, hosszóú, lógó hajszálak érintkezhetnek az élelmiszerrel.;;
+1.28;Kézmosás elmaradása a nyersanyag átvétele után;Személyi Higiénia;A dolgozó nem mos kezet a szennyezett csomagolásóú nyersanyagok (pl. zöldséges ládák, hóúsos dobozok) átvétele és elhelyezése után.;;Sóúlyos hiányosság / Bí­rság, azonnali intézkedés.
+2.1;Hiányos hajháló/sapka;Munkaruha;A haj nincs teljes mértékben fedve, vagy a szakácssapka/hajháló hiányzik. Tipikus helyzet: hosszóú hajóú dolgozó lógó hajjal dolgozik a tálalásnál.;;
+2.2;Utcai ruha viselése;Munkaruha;A dolgozó utcai ruhában, kabátban vagy hátizsákkal tartózkodik az élelmiszer-kezelõ területen. Tipikus helyzet: dolgozó a bejárati ajtó mellett veszi fel a munkaruhát, utcai pulóverben dolgozik.;;
+2.3;Szennyezett munkaruha;Munkaruha;A munkaruha láthatóan szennyezett, szakadt, vagy nem tiszta. Tipikus helyzet: szakács ruháján a reggeli elõkészí­tésbõl származó nyers hóús folt van.;;
+2.4;Külön munkaruha hiánya;Munkaruha;Nincs elkülöní­tett munkaruha a különbözõ területekhez (pl. mosogató, nyers hóús elõkészí­tõ, tálaló). Tipikus helyzet: ugyanaz a kötény használata a nyers hóús elõkészí­tésnél és a készétel tálalásánál.;;
+2.5;Kesztyû helytelen használata;Munkaruha;Ugyanazt a kesztyût használja a dolgozó több, keresztszennyezõdést okozó feladathoz (pl. pénzkezelés után tálalás). Tipikus helyzet: pénztáros kesztyûben nyóúl a pékáruhoz.;;Sóúlyos hiányosság / Bí­rság, azonnali intézkedés.
+2.6;Nem megfelelõ lábbeli;Munkaruha;Nyitott orróú, nem csóúszásmentes vagy nem tisztí­tható lábbeli viselése a konyhában. Tipikus helyzet: papucs viselése.;;
+2.7;Munkaruha tárolása utcai ruhával;Munkaruha;A tiszta munkaruha tárolása az utcai ruhával együtt, vagy nem elkülöní­tett szekrényben.;;
+2.8;Kötény nem megfelelõ használata;Munkaruha;A kötényt nem cserélik le, ha szennyezõdik, vagy ugyanazt a kötényt használják a takarí­táshoz és az élelmiszer-kezeléshez.;;Sóúlyos hiányosság / Bí­rság, azonnali ruhacsere elrendelése.
+2.9;Nem megfelelõ védõkesztyû;Munkaruha;Védõkesztyû használata, amely nem élelmiszer-ipari célra készült, vagy porzó (nem póúdermentes) kesztyû használata.;;
+2.10;Munkaruha nem megfelelõ szí­ne;Munkaruha;A munkaruha szí­ne nem fehér vagy világos, ami megnehezí­ti a szennyezõdés észlelését.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+2.11;Munkaruha hiánya a vendégtérben;Munkaruha;A vendégtérben dolgozó személyzet (pl. pincér) nem visel tiszta, megfelelõ ruházatot.;;Kisebb hiányosság / Figyelmeztetés.
+2.12;Munkaruha nem megfelelõ anyaga;Munkaruha;A munkaruha anyaga nem megfelelõ (pl. nem könnyen mosható, nem megfelelõ hõmérsékleten mosható).;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+2.13;Kesztyû lyukas/szakadt;Munkaruha;A dolgozó lyukas vagy szakadt kesztyût használ, ami szennyezõdést okozhat.;;Sóúlyos hiányosság / Bí­rság, azonnali csere.
+2.14;Munkaruha nem megfelelõ tisztí­tása;Munkaruha;A munkaruha tisztí­tása nem a megfelelõ hõmérsékleten vagy módon történik.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+2.15;Munkaruha tárolása a konyhában;Munkaruha;A tiszta munkaruha tárolása a konyhában, nem elkülöní­tett, zárt szekrényben.;;
+2.16;Munkaruha nem megfelelõ tisztí­tása;Munkaruha;A munkaruha tisztí­tása nem a megfelelõ hõmérsékleten vagy módon történik.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+3.1;Oktatási terv hiánya;Képzés/Dokumentáció;Nincs í­rásos oktatási terv, amely rögzí­ti a dolgozók élelmiszerbiztonsági képzésének tartalmát és gyakoriságát.;;
+3.2;Oktatási napló hiánya;Képzés/Dokumentáció;A dolgozók nem í­rják alá, hogy részt vettek az élelmiszerbiztonsági oktatáson, vagy a napló hiányos. Tipikus helyzet: óúj dolgozó betaní­tása megtörtént, de nincs dokumentálva.;;
+3.3;érvényes egészségügyi kiskönyv hiánya;Képzés/Dokumentáció;A dolgozó nem rendelkezik érvényes egészségügyi alkalmassági igazolással (kiskönyvvel).;;
+3.4;Nem megfelelõ képzettség;Képzés/Dokumentáció;A dolgozó nem rendelkezik a munkaköréhez szükséges alapvetõ élelmiszerbiztonsági ismeretekkel (pl. hõmérséklet-ellenõrzés, keresztszennyezõdés).;;
+3.5;Allergén oktatás hiánya;Képzés/Dokumentáció;A dolgozók nem kaptak megfelelõ oktatást az allergének kezelésérõl, a keresztszennyezõdés megelõzésérõl és a fogyasztók tájékoztatásáról.;;
+4.1;Nyers és késztermék együttes tárolása;Keresztszennyezõdés;Nyers hóús, tojás vagy zöldség tárolása a hûtõben készételek vagy tálalásra kész alapanyagok felett. Tipikus helyzet: nyers csirke csepeg a tálalásra váró salátára.;;
+4.2;Ugyanaz a vágódeszka;Keresztszennyezõdés;Ugyanazt a vágódeszkát vagy kést használják nyers hóús és készétel (pl. zöldség, sajt) elõkészí­téséhez köztes tisztí­tás nélkül. Tipikus helyzet: a nyers hóús szeletelése után a deszkát csak leöblí­tik, és azon vágják a zöldséget.;;
+4.3;Tisztí­tószerek élelmiszer közelében;Keresztszennyezõdés;Tisztí­tószerek, fertõtlení­tõszerek vagy rovarirtó szerek tárolása élelmiszerek, edények vagy munkafelületek felett/mellett. Tipikus helyzet: ablakmosó spray a fûszerek polcán.;;
+4.4;Kézi szennyezõdés;Keresztszennyezõdés;Készételhez való nyóúlás puszta kézzel, kesztyû vagy megfelelõ eszköz (pl. fogó) használata nélkül. Tipikus helyzet: pékáru vagy szendvics alapanyag puszta kézzel történõ megfogása.;;
+4.5;Szennyezett csomagolóanyag;Keresztszennyezõdés;élelmiszer tárolása nem élelmiszer-ipari célra szánt, szennyezett vagy nem megfelelõ csomagolóanyagban (pl. használt festékes vödör, nem tiszta mûanyag zacskó).;;
+4.6;Tisztí­tókendõk helytelen használata;Keresztszennyezõdés;Ugyanazt a tisztí­tókendõt használják a nyersanyagok és a készételek munkafelületeinek tisztí­tására, vagy a kendõ szennyezett.;;Sóúlyos hiányosság / Bí­rság, a kendõk azonnali elkülöní­tése/megsemmisí­tése.
+4.7;Tojás helytelen kezelése;Keresztszennyezõdés;A tojás feltörése a konyhai munkafelületen történik, és a felületet nem fertõtlení­tik utána, vagy a tojáshéj érintkezik a készétellel.;;
+4.8;Szennyezett eszközök tárolása;Keresztszennyezõdés;A takarí­tóeszközök (pl. felmosóvödör, seprû) tárolása az élelmiszer-elõkészí­tõ területen.;;
+4.9;Különálló mosogató hiánya;Keresztszennyezõdés;Nincs külön mosogató a nyers zöldségek és a készételek edényeinek mosogatására, vagy a kézmosóban mosogatnak.;;
+4.10;Nyersanyag és késztermék szállí­tási óútvonala nagy kockázattal jár;Keresztszennyezõdés;A nyersanyagok és a késztermékek szállí­tási óútvonala keresztezi egymást, vagy ugyanazt a liftet/folyosót használják egy idõben.;;
+4.11;Szennyezett edények tárolása;Keresztszennyezõdés;A tiszta edények tárolása a szennyezett edények közelében, vagy a padlón.;;
+4.12;Hûtõajtó szennyezõdése;Keresztszennyezõdés;A hûtõajtó fogantyóúja vagy a hûtõ belseje láthatóan szennyezett, ami a baktériumok átvitelét okozhatja.;;
+4.13;Szí­nes vágódeszkák hiánya/helytelen használata;Keresztszennyezõdés;Nincs elkülöní­tett, szí­nkódolt vágódeszka a különbözõ alapanyagokhoz (pl. nyers hóús, fõtt hóús, zöldség, hal).;;Sóúlyos hiányosság / Bí­rság, azonnali intézkedés.
+4.14;Közös tálalóeszközök;Keresztszennyezõdés;Ugyanazt a tálalóeszközt használják különbözõ ételekhez, vagy a tálalóeszköz a tálalóedényben áll.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+4.15;Konyhai szivacs használata;Keresztszennyezõdés;Konyhai szivacs használata a mosogatáshoz, ami baktériumok melegágya. Csak kefe vagy mosogatórongy engedélyezett.;;Kisebb hiányosság / Figyelmeztetés, azonnali eltávolí­tás.
+4.16;Készétel tárolása nyersanyag tárolóban;Keresztszennyezõdés;Készétel tárolása olyan edényben, amely korábban nyersanyagot (pl. nyers hóúst) tartalmazott, megfelelõ fertõtlení­tés nélkül.;;
+4.17;Pénzkezelés és élelmiszer-kezelés;Keresztszennyezõdés;A dolgozó ugyanazzal a kézzel vagy kesztyûvel kezeli a pénzt és az élelmiszert.;;Sóúlyos hiányosság / Bí­rság, azonnali intézkedés.
+4.18;Szennyezett csomagolóanyag a hûtõben;Keresztszennyezõdés;A beérkezõ, szennyezett külsõ csomagolásóú alapanyagot (pl. kartondoboz) közvetlenül a hûtõben tárolják.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+4.19;Készétel tárolása a padlón;Keresztszennyezõdés;Készétel tárolása a padlón, ami szennyezõdés kockázatát jelenti.;;
+4.20;Tisztí­tókendõk nem megfelelõ szí­ne;Keresztszennyezõdés;A tisztí­tókendõk nincsenek szí­nkódolva a különbözõ területekhez (pl. konyha, WC, vendégtér).;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+4.21;Szennyezett felületek tisztí­tásának hiánya;Keresztszennyezõdés;A dolgozó nem tisztí­tja meg és fertõtlení­ti a felületeket a nyersanyagok kezelése után.;;
+5.1;Hõmérõ hiánya/nem hiteles;Hõmérséklet;Nincs megfelelõ, hitelesí­tett hõmérõ a hûtõk, fagyasztók vagy a melegen tartó berendezések hõmérsékletének ellenõrzésére. Tipikus helyzet: a hûtõben lévõ hõmérõ nem mûködik, vagy nincs kalibrálva.;;
+5.2;Hõmérséklet napló hiánya;Hõmérséklet;A hûtési és melegen tartási hõmérsékletek ellenõrzése nem történik meg rendszeresen, vagy nincs dokumentálva. Tipikus helyzet: a HACCP naplóban hiányoznak a napi hõmérséklet-ellenõrzések.;;
+5.3;Hûtési lánc megszakadása;Hõmérséklet;Hûtést igénylõ élelmiszer tárolása 5Â°C feletti hõmérsékleten (pl. 8-10Â°C). Tipikus helyzet: a hûtõajtó nyitva marad, vagy tóúl sok meleg ételt tesznek egyszerre a hûtõbe.;;
+5.4;Melegen tartás hibája;Hõmérséklet;Készétel melegen tartása 60Â°C alatti hõmérsékleten. Tipikus helyzet: a büfében a leves 50Â°C-on van a pultban.;;
+5.5;Lassóú visszahûtés;Hõmérséklet;A fõzött étel visszahûtése nem történik meg a HACCP tervben rögzí­tett idõn belül (pl. 60Â°C-ról 10Â°C-ra 2 órán belül). Tipikus helyzet: nagy fazék étel a konyhapulton hûl órákig.;;
+5.6;Fagyasztó hõmérsékletének hibája;Hõmérséklet;A fagyasztott termékek tárolása -18Â°C feletti hõmérsékleten történik. Tipikus helyzet: a fagyasztó leolvasztásra szorul, és a hõmérséklet -10Â°C.;;Sóúlyos hiányosság / Bí­rság, a termék forgalomból kivonása.
+5.7;Hõmérséklet-ellenõrzés elmulasztása átvételkor;Hõmérséklet;A hûtött vagy fagyasztott áru átvételekor nem ellenõrzik a termék maghõmérsékletét.;;
+5.8;Hõmérséklet-ellenõrzés nem a legrosszabb ponton;Hõmérséklet;A hûtõ hõmérsékletét nem a legmelegebb ponton (pl. ajtó közelében) mérik.;;Kisebb hiányosság / Figyelmeztetés, oktatás elrendelése.
+5.9;Meleg étel tárolása hûtõben;Hõmérséklet;Frissen fõzött, forró étel azonnali, nagy mennyiségû behelyezése a hûtõbe, ami megemeli a hûtõ hõmérsékletét és veszélyezteti a többi terméket.;;Sóúlyos hiányosság / Bí­rság, a termék forgalomból kivonása.
+5.10;Hõmérséklet-mérõ eszköz kalibrálásának hiánya;Hõmérséklet;A hõmérséklet-mérõ eszközök (pl. maghõmérõ) nincsenek rendszeresen kalibrálva, vagy a kalibrálás nincs dokumentálva.;;
+5.11;Hûtõberendezés tóúlterhelése;Hõmérséklet;A hûtõberendezés tóúl van terhelve, ami akadályozza a levegõ áramlását és a megfelelõ hûtést.;;Kisebb hiányosság / Figyelmeztetés, átrendezés elrendelése.
+5.12;Hûtõberendezés nem megfelelõ elhelyezése;Hõmérséklet;Hûtõberendezés elhelyezése hõforrás (pl. tûzhely, sütõ) közelében, ami rontja a hûtési teljesí­tményt.;;Kisebb hiányosság / Figyelmeztetés, áthelyezés elrendelése.
+5.13;Hõmérséklet-ellenõrzés hiánya a szállí­tás során;Hõmérséklet;A kiszállí­tott ételek hõmérsékletét nem ellenõrzik a szállí­tás megkezdésekor és a célállomáson.;;
+5.14;Hûtõberendezés tóúl magas hõmérséklete;Hõmérséklet;A hûtõberendezés hõmérséklete tartósan 5Â°C felett van, ami a baktériumok elszaporodását okozza.;;
+5.15;Fagyasztott termék kiolvasztása;Hõmérséklet;Fagyasztott termék kiolvasztása szobahõmérsékleten, ami a baktériumok elszaporodását okozza.;;Sóúlyos hiányosság / Bí­rság, a termék megsemmisí­tése.
+5.16;Hõmérséklet-ellenõrzés hiánya a beérkezõ árunál;Hõmérséklet;A beérkezõ hûtött/fagyasztott áru hõmérsékletét nem ellenõrzik, és nem dokumentálják.;;
+5.17;Hõmérséklet-ellenõrzés hiánya a fagyasztóban;Hõmérséklet;A fagyasztó hõmérsékletét nem ellenõrzik és dokumentálják rendszeresen.;;
+5.18;Hûtõberendezés nem megfelelõ karbantartása;Hõmérséklet;A hûtõberendezés nem megfelelõ karbantartása (pl. poros kondenzátor), ami rontja a hûtési teljesí­tményt.;;Kisebb hiányosság / Figyelmeztetés, karbantartás elrendelése.
+5.19;Fagyasztott termék kiolvasztása szobahõmérsékleten;Hõmérséklet;Fagyasztott termék kiolvasztása szobahõmérsékleten, ami a baktériumok elszaporodását okozza.;;Sóúlyos hiányosság / Bí­rság, a termék megsemmisí­tése.
+6.1;élelmiszer a padlón;Tárolás;élelmiszer, alapanyag vagy csomagolóanyag tárolása közvetlenül a padlón. Tipikus helyzet: lisztes zsákok a raktár padlóján.;;
+6.2;Lejárt minõségmegõrzési idejû termék;Tárolás;Minõségmegõrzési idejét (MMI) lejárt termék tárolása, amely nem élelmiszerbiztonsági kockázatot jelent, de nem forgalmazható. Tipikus helyzet: lejárt fûszer a polcon.;;
+6.3;Lejárt fogyaszthatósági idejû termék;Tárolás;Fogyaszthatósági idejét (FHE) lejárt termék tárolása, ami sóúlyos élelmiszerbiztonsági kockázatot jelent. Tipikus helyzet: lejárt tejtermék a hûtõben.;;
+6.4;FIFO elv megsértése;Tárolás;"A ""First In, First Out"" (elõbb be, elõbb ki) elv megsértése, azaz a régebbi termék a frissebb mögött van, ami a lejárat kockázatát növeli. Tipikus helyzet: óúj tejet tesznek a régi elé a hûtõben.";;Kisebb hiányosság / Figyelmeztetés, a tárolási rend azonnali korrigálása.
+6.5;Felbontott termék jelölésének hiánya;Tárolás;Felbontott, de nem felhasznált alapanyag (pl. konzerv, tejföl) nincs ellátva a felbontás dátumával és a felhasználhatósági idõvel. Tipikus helyzet: felbontott majonéz a hûtõben, dátum nélkül.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+6.6;Csomagolás nélküli tárolás;Tárolás;élelmiszer tárolása csomagolás nélkül, ami kiszáradáshoz, szennyezõdéshez vezet. Tipikus helyzet: nyitott edényben lévõ alapanyag a hûtõben.;;
+6.7;Nem élelmiszer-ipari tárolóedény;Tárolás;élelmiszer tárolása nem élelmiszer-ipari célra szánt, nem jelölt vödörben, dobozban. Tipikus helyzet: festékes vödörben tárolt liszt.;;
+6.8;Sérült, rozsdás polcok;Tárolás;A raktárban lévõ polcok sérültek, rozsdásak, nehezen tisztí­thatók, ami szennyezõdés forrása lehet.;;
+6.9;Nem megfelelõ tárolási hõmérséklet;Tárolás;Szárazáru (pl. liszt, cukor) tárolása tóúl magas páratartalmóú vagy hõmérsékletû helyen, ami kártevõfertõzéshez vagy minõségromláshoz vezet.;;
+6.10;Lejárt termék elkülöní­tésének hiánya;Tárolás;"A lejárt fogyaszthatósági idejû termékeket nem különí­tik el azonnal, és nem jelölik meg ""nem emberi fogyasztásra"" felirattal.";;
+6.11;Csomagolás nélküli fagyasztás;Tárolás;élelmiszer fagyasztása megfelelõ csomagolás nélkül, ami fagyási sérülést és minõségromlást okoz.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+6.12;Lejárt termék elkülöní­tésének hiánya;Tárolás;"A lejárt fogyaszthatósági idejû termékeket nem különí­tik el azonnal, és nem jelölik meg ""nem emberi fogyasztásra"" felirattal.";;
+6.13;élelmiszer tárolása a földön;Tárolás;élelmiszer tárolása közvetlenül a földön, még akkor is, ha csomagolt.;;
+6.14;Nem élelmiszer-ipari tárolóedény;Tárolás;élelmiszer tárolása nem élelmiszer-ipari célra szánt, nem jelölt vödörben, dobozban.;;
+6.15;Lejárt fûszerek/adalékanyagok;Tárolás;Lejárt minõségmegõrzési idejû fûszerek, adalékanyagok használata.;;
+6.16;Csomagolás nélküli kenyér/pékáru;Tárolás;Kenyér vagy pékáru tárolása csomagolás nélkül, ami szennyezõdés kockázatát jelenti.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+6.17;Csomagolás nélküli fagyasztás;Tárolás;élelmiszer fagyasztása megfelelõ csomagolás nélkül, ami fagyási sérülést és minõségromlást okoz.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+7.1;Takarí­tási terv hiánya;Tisztí­tás;Nincs í­rásos takarí­tási és fertõtlení­tési terv, amely rögzí­ti a feladatokat, gyakoriságot, felelõsöket és a használt szereket.;;
+7.2;Takarí­tási napló hiánya/hiányos;Tisztí­tás;A napi, heti és havi takarí­tási feladatok elvégzése nincs dokumentálva, vagy a napló hiányos.;;
+7.3;Szennyezett berendezések;Tisztí­tás;A berendezések (pl. szeletelõgép, fritõz, tûzhely) láthatóan szennyezettek, ételmaradékosak. Tipikus helyzet: a szeletelõgép nem volt elmosva a használat után.;;
+7.4;Tisztí­tószer helytelen hí­gí­tása;Tisztí­tás;A fertõtlení­tõszereket nem a gyártó által elõí­rt koncentrációban használják, ami a hatékonyság hiányát okozza. Tipikus helyzet: tóúl hí­g fertõtlení­tõszer.;;Sóúlyos hiányosság / Bí­rság, a helyes eljárás azonnali betartatása.
+7.5;Mosogatás hõmérsékletének hibája;Tisztí­tás;Gépi mosogatásnál a fertõtlení­tõ öblí­tés hõmérséklete nem éri el az elõí­rt minimumot (pl. 80-85Â°C).;;
+7.6;Szennyezett padlóösszefolyó;Tisztí­tás;A padlóösszefolyók eldugultak, szennyezettek, ami pangó vizet és kellemetlen szagot okoz.;;
+7.7;Takarí­tóeszközök elkülöní­tésének hiánya;Tisztí­tás;Nincs elkülöní­tett takarí­tóeszköz a különbözõ területekhez (pl. WC, konyha, vendégtér).;;Sóúlyos hiányosság / Bí­rság, azonnali intézkedés.
+7.8;Tisztí­tószerek jelölésének hiánya;Tisztí­tás;A tisztí­tószerek nincsenek jelölve, vagy a hí­gí­tott oldatokon nincs feltüntetve a tartalom és a hí­gí­tás dátuma.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+7.9;Mosogatószer/fertõtlení­tõszer adagolása nem megfelelõ;Tisztí­tás;Gépi mosogatásnál a mosogatószer és fertõtlení­tõszer adagolása nem megfelelõ, vagy a berendezés meghibásodott.;;Sóúlyos hiányosság / Bí­rság, azonnali javí­tás/beállí­tás.
+7.10;Takarí­tóeszközök állapota nem megfelelõ;Tisztí­tás;A takarí­tóeszközök (pl. felmosófej, kefe) elhasználódtak, szennyezettek, ami a baktériumok terjedését okozza.;;
+7.11;Takarí­tási terv nem tartalmazza a frekvenciát;Tisztí­tás;A takarí­tási terv nem rögzí­ti a feladatok elvégzésének pontos gyakoriságát (pl. napi, heti, havi).;;
+7.12;Tisztí­tószerek nem megfelelõ tárolása;Tisztí­tás;A tisztí­tószerek tárolása nem zárt, jelölt helyen történik, vagy a tárolóhely szennyezett.;;
+7.13;Mosogatógép szûrõjének tisztí­tása;Tisztí­tás;A mosogatógép szûrõjének napi tisztí­tása elmarad, ami a szennyezõdés felhalmozódásához vezet.;;Kisebb hiányosság / Figyelmeztetés, azonnali tisztí­tás.
+7.14;Zsí­ros, olajos felületek;Tisztí­tás;A konyhai felületek (pl. tûzhely, elszí­vó) vastagon zsí­rosak, olajosak, ami tûz- és higiéniai kockázatot jelent.;;
+7.15;Szennyezett falak/mennyezet;Tisztí­tás;A falak, mennyezet láthatóan szennyezettek, penészesek, ami szennyezheti az élelmiszert.;;
+7.16;Tisztí­tószerek nem megfelelõ hí­gí­tása;Tisztí­tás;A tisztí­tószerek hí­gí­tása nem a gyártó által elõí­rt koncentrációban történik, ami a hatékonyság hiányát okozza.;;Kisebb hiányosság / Figyelmeztetés, oktatás elrendelése.
+7.17;Mosogatógép hõmérsékletének nem megfelelõ beállí­tása;Tisztí­tás;A mosogatógép nem éri el a megfelelõ hõmérsékletet, ami a baktériumok tóúlélését eredményezi.;;
+7.18;Takarí­tási napló hiánya;Tisztí­tás;A takarí­tási napló hiányzik, vagy nem tartalmazza a szükséges adatokat.;;
+8.1;Kártevõirtási szerzõdés hiánya;Kártevõirtás;Nincs érvényes szerzõdés kártevõirtó vállalkozással, vagy a szerzõdés nem fedi le a szükséges gyakoriságot.;;
+8.2;Kártevõirtási napló hiánya/hiányos;Kártevõirtás;A kihelyezett csapdák, irtószerek helye, állapota és az elvégzett ellenõrzések nincsenek dokumentálva.;;
+8.3;Kártevõirtó szerek helytelen tárolása;Kártevõirtás;A kihelyezett csapdák, mérgek nincsenek biztonságosan elzárva, vagy élelmiszer közelében vannak.;;
+8.4;Rágcsálóürülék nyomai;Kártevõirtás;Rágcsálóürülék, rágásnyomok vagy rovarok (pl. csótányok) jelenlétének egyértelmû jelei a raktárban vagy a konyhában.;;
+8.5;Nyitott ajtók/ablakok;Kártevõirtás;Rovarháló hiánya, vagy nyitva hagyott ajtók/ablakok a konyhában, ami lehetõvé teszi a kártevõk bejutását.;;
+8.6;Kártevõirtó szerek házilagos használata;Kártevõirtás;Nem engedélyezett, házilagos rovarirtó szerek használata a konyhában, ami vegyi szennyezõdést okozhat.;;Sóúlyos hiányosság / Bí­rság, a szerek azonnali eltávolí­tása.
+8.7;Kártevõirtó csapda hiánya;Kártevõirtás;A konyhai bejáratoknál, raktárakban nincsenek kihelyezve a megfelelõ kártevõirtó csapdák (pl. rovarcsapda, rágcsálócsapda).;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+8.8;Kártevõirtási terv hiánya;Kártevõirtás;Nincs í­rásos kártevõirtási terv, amely rögzí­ti a megelõzõ intézkedéseket és a csapdák elhelyezését.;;
+8.9;Rovarok a fénycsapdában;Kártevõirtás;A rovarcsapda tele van rovarokkal, de nem ürí­tették ki, ami higiéniai kockázatot jelent.;;Kisebb hiányosság / Figyelmeztetés, azonnali ürí­tés.
+9.1;Sérült burkolat;Létesí­tmény;Repedt, törött csempe, padlóburkolat vagy fal, ami nehezen tisztí­tható és kártevõk bóúvóhelye lehet. Tipikus helyzet: repedt padló a mosogató alatt.;;
+9.2;Nem mosható felület;Létesí­tmény;A munkafelületek, falak vagy mennyezet nem sima, nem korrózióálló, nem mosható anyagból készült. Tipikus helyzet: fa vágódeszka, amely már nem tisztí­tható megfelelõen.;;
+9.3;Nem lábbal nyitható kuka;Létesí­tmény;A konyhában használt hulladékgyûjtõ edény nem fedett, vagy nem lábbal nyitható, ami kézi szennyezõdést okoz.;;
+9.4;Elégtelen szellõzés;Létesí­tmény;A konyhában a szellõzés nem megfelelõ, ami páralecsapódást, penészedést vagy kellemetlen szagokat okoz. Tipikus helyzet: zsí­ros, koszos elszí­vó berendezés.;;
+9.5;Szennyezett szellõzõ/klí­ma;Létesí­tmény;A szellõzõnyí­lások, klí­maberendezések rácsai zsí­rosak, porosak, penészesek, ami szennyezheti az élelmiszert.;;
+9.6;Elégtelen világí­tás;Létesí­tmény;A munkafelületek, különösen az ellenõrzést igénylõ területek (pl. mosogató, elõkészí­tõ) világí­tása nem megfelelõ.;;
+9.7;Védõburkolat hiánya;Létesí­tmény;A világí­tótestek nincsenek védõburkolattal ellátva az élelmiszer-kezelõ területen, ami üvegszilánk-szennyezõdés kockázatát jelenti.;;
+9.8;Berendezések elhelyezése;Létesí­tmény;A berendezések nincsenek megfelelõen elhelyezve, ami megnehezí­ti a tisztí­tást (pl. falhoz szorí­tott hûtõ, ami mögött felhalmozódik a szennyezõdés).;;
+9.9;Sérült munkafelület;Létesí­tmény;A munkafelületek (pl. pult, asztal) karcosak, repedezettek, ami nehezen tisztí­tható és baktériumok bóúvóhelye lehet.;;
+9.10;Nem megfelelõ lefolyórendszer;Létesí­tmény;A lefolyórendszer nem megfelelõ, ami pangó vizet, eldugulást és kellemetlen szagot okoz.;;
+9.11;Nem megfelelõ szellõzés a WC-ben;Létesí­tmény;A WC-ben nincs megfelelõ szellõzés, vagy a szellõzés a konyhába szí­vja a levegõt.;;
+9.12;Kézmosó hiánya a WC-ben;Létesí­tmény;A WC-ben nincs kézmosó, vagy a kézmosó nem mûködik.;;
+9.13;Sérült hûtõgumi;Létesí­tmény;A hûtõajtó gumitömí­tése sérült, elhasználódott, ami rontja a hûtési hatékonyságot és szennyezõdést okozhat.;;Kisebb hiányosság / Figyelmeztetés, csere elrendelése.
+9.14;Nem megfelelõ hõmérõ a hûtõben;Létesí­tmény;A hûtõben lévõ hõmérõ nem a legmelegebb ponton van elhelyezve, vagy nem digitális.;;Kisebb hiányosság / Figyelmeztetés, áthelyezés.
+9.15;Nem megfelelõ padlóburkolat;Létesí­tmény;A padlóburkolat nem sima, nem ví­zálló, nem csóúszásmentes, ami balesetveszélyes és nehezen tisztí­tható.;;
+9.16;Sérült falburkolat;Létesí­tmény;A falburkolat sérült, repedt, ami nehezen tisztí­tható és kártevõk bóúvóhelye lehet.;;
+10.1;Hulladékgyûjtõ edény fedél nélkül;Hulladékkezelés;A külsõ hulladékgyûjtõ edények nincsenek lefedve, ami vonzza a kártevõket.;;
+10.2;Hulladék felhalmozása;Hulladékkezelés;A hulladékot felhalmozzák a konyhában vagy a tárolóhelyen, ami higiéniai kockázatot jelent.;;
+10.3;Zsí­rleválasztó tisztí­tásának hiánya;Hulladékkezelés;A zsí­rleválasztó rendszeres tisztí­tása elmarad, ami dugulást és kellemetlen szagokat okoz.;;
+10.3;Használt olaj helytelen tárolása;Hulladékkezelés;A használt sütõolaj nem zárt, jelölt edényben van tárolva, vagy nem megfelelõ helyen.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+10.1;élelmiszer-hulladék nem megfelelõ tárolása;Hulladékkezelés;Az élelmiszer-hulladékot nem zárható, jelölt edényben tárolják, ami vonzza a kártevõket.;;
+10.2;Zsí­rleválasztó tóúlcsordulása;Hulladékkezelés;A zsí­rleválasztó tóúlcsordul, ami szennyezõdést és kellemetlen szagot okoz.;;
+10.3;Hulladék tárolása élelmiszer közelében;Hulladékkezelés;A hulladékgyûjtõ edények tóúl közel vannak az élelmiszer-elõkészí­tõ területhez.;;
+10.3;Hulladékgyûjtõ száma nem megfelelõ hiánya;Hulladékkezelés;Nincs elegendõ hulladékgyûjtõ edény a konyhában, ami a hulladék felhalmozódásához vezet.;;
+10.1;Hulladékgyûjtõ edények nem megfelelõ tisztí­tása;Hulladékkezelés;A hulladékgyûjtõ edények szennyezettek, ami kellemetlen szagot és kártevõket vonz.;;
+10.2;Hulladék felhalmozása;Hulladékkezelés;A hulladékot felhalmozzák a konyhában vagy a tárolóhelyen, ami higiéniai kockázatot jelent.;;
+11.1;Kézmosók száma nem megfelelõ;Kézmosás;Nincs elegendõ, megfelelõen elhelyezett kézmosó (hideg/meleg folyóví­z, szappan, higiénikus kézszárí­tási lehetõség). Tipikus helyzet: a kézmosó mellett nincs szappanadagoló.;;
+11.2;Kézmosó nem érintésmentes;Kézmosás;A kézmosó csaptelepe nem lábbal, térddel vagy érzékelõvel mûködik, ami kézi szennyezõdést okoz. Tipikus helyzet: hagyományos, kézzel elzárható csap.;;
+11.3;Jégkészí­tõ gép tisztí­tása hiányos;Ivóví­z/Jég;A jégkészí­tõ gép belseje szennyezett, penészes, ami a jég (élelmiszer) szennyezõdését okozza.;;
+11.4;Ivóví­z minõségének igazolása hiányzik;Ivóví­z;Saját kóút használata esetén nincs érvényes ví­zmintavételi jegyzõkönyv az ivóví­z minõségének igazolására.;;
+11.5;Kézmosáshoz nem megfelelõ szárí­tás;Kézmosás;Kézmosás után nem higiénikus kézszárí­tási lehetõség (pl. közös törölközõ) áll rendelkezésre.;;
+11.6;Jégkészí­tés ivóví­z minõségû ví­zbõl;Ivóví­z/Jég;A jégkészí­téshez nem ivóví­z minõségû vizet használnak.;;
+11.7;Jégkészí­tõ gép tisztí­tási napló hiánya;Ivóví­z/Jég;A jégkészí­tõ gép rendszeres tisztí­tása nincs dokumentálva.;;Kisebb hiányosság / Figyelmeztetés, hiánypótlás.
+11.8;Kézmosó használata más célra;Kézmosás;A kézmosót más célra (pl. edények mosogatására, élelmiszer elõkészí­tésre) használják.;;
+11.9;Kézmosó nem megfelelõ elhelyezése;Kézmosás;A kézmosó tóúl messze van az élelmiszer-elõkészí­tõ területtõl, ami akadályozza a gyakori kézmosást.;;
+11.10;Jégkészí­tõ gép szennyezõdése;Ivóví­z/Jég;A jégkészí­tõ gép belseje szennyezett, penészes, ami a jég (élelmiszer) szennyezõdését okozza.;;
+12.1;HACCP terv hiánya;Dokumentáció;Nincs érvényes, a vállalkozásra szabott HACCP (Veszélyelemzés és Kritikus Szabályozási Pontok) rendszer.;;
+12.2;HACCP felülvizsgálat hiánya;Dokumentáció;A HACCP tervet nem vizsgálták felül a technológia, berendezés vagy jogszabályi változás esetén.;;
+12.3;Naplók hiányos vezetése;Dokumentáció;A kötelezõ naplók (pl. hõmérséklet, takarí­tás, kártevõirtás) nincsenek naprakészen, hiányosan vagy hibásan vezetve.;;
+12.4;í–nellenõrzési terv hiánya;Dokumentáció;Nincs í­rásos önellenõrzési terv, amely rögzí­ti a belsõ ellenõrzések rendszerét.;;
+12.5;HACCP terv nem tükrözi a valóságot;Dokumentáció;A HACCP tervben leí­rt technológia, berendezések vagy folyamatok nem egyeznek meg a valóságban alkalmazottakkal.;;
+12.6;Eredeti dokumentumok hiánya;Dokumentáció;A hatóság kérésére nem tudják bemutatni a létesí­tményre vonatkozó engedélyeket, vagy a HACCP terv eredeti példányát.;;Kisebb hiányosság / Figyelmeztetés, határidõs hiánypótlás.
+12.7;Szállí­tói dokumentáció hiánya;Dokumentáció;A beérkezõ árukhoz tartozó szállí­tói dokumentáció (pl. származási igazolás, megfelelõségi nyilatkozat) hiányzik.;;
+12.8;HACCP napló utólagos kitöltése;Dokumentáció;A HACCP naplókat (pl. hõmérséklet, takarí­tás) utólag, nem a valós idõben töltik ki.;;
+12.9;í–nellenõrzési eredmények hiánya;Dokumentáció;Az önellenõrzési tervben rögzí­tett vizsgálatok (pl. mikrobiológiai mintavétel) eredményei hiányoznak.;;
+12.10;HACCP terv nem tartalmazza az allergéneket;Dokumentáció;A HACCP terv nem tér ki az allergének kezelésére, a keresztszennyezõdés megelõzésére.;;
+12.11;HACCP terv nem tartalmazza a CCP-ket;Dokumentáció;A HACCP terv nem tartalmazza a kritikus szabályozási pontokat (CCP-ket), vagy a CCP-k nem megfelelõek.;;
+12.12;HACCP napló nem tartalmazza a korrekciós intézkedéseket;Dokumentáció;A HACCP napló nem tartalmazza a korrekciós intézkedéseket, ha a CCP-k megsérültek.;;
+13.1;Bejövõ áru nyomonkövetési hiánya;Nyomonkövetés;A beérkezõ alapanyagokról (különösen állati eredetûekrõl) hiányzik a számla, szállí­tólevél vagy tételazonosí­tó.;;
+13.2;Allergén információ hiánya;Allergének;A fogyasztók számára nem áll rendelkezésre í­rásos tájékoztatás az ételekben lévõ allergénekrõl.;;
+13.3;Elõre csomagolt termék hibás jelölése;Jelölés;A helyben elõre csomagolt termékeken hiányzik a kötelezõ jelölés (pl. összetevõk, allergének, nettó mennyiség, tárolási feltételek).;;
+13.4;Allergén keresztszennyezõdés;Allergének;Nem biztosí­tott az allergénmentes ételek elkészí­tése során a keresztszennyezõdés elkerülése (pl. ugyanaz a sütõolaj, ugyanaz a kesztyû).;;
+13.5;Visszahí­vási eljárás hiánya;Nyomonkövetés;Nincs kidolgozott és dokumentált eljárás arra az esetre, ha egy terméket vissza kell hí­vni a fogyasztóktól.;;
+13.6;Allergén lista nem naprakész;Allergének;Az étlapon vagy a tájékoztatóban szereplõ allergén információk nem egyeznek a valósággal, vagy nem frissültek a receptóúra változása után.;;
+13.7;Nyomonkövetési rendszer hiánya;Nyomonkövetés;Nem tudják igazolni, hogy egy adott alapanyag honnan származik, vagy melyik ételbe került felhasználásra.;;
+13.8;Allergén tájékoztatás nem elérhetõ;Allergének;Az allergén tájékoztatás csak a vezetõnél van, és nem elérhetõ a fogyasztók vagy a tálaló személyzet számára.;;
+13.9;Nyomonkövetési adatok hiánya a belsõ felhasználásnál;Nyomonkövetés;A belsõ felhasználásra szánt alapanyagok (pl. saját kertbõl származó zöldség) nyomonkövethetõsége nem biztosí­tott.;;
+14.1;Nem engedélyezett forrásból származó hóús;íllategészségügy;Hóús, tej, tojás beszerzése nem regisztrált, nem ellenõrzött forrásból (pl. ismeretlen termelõtõl).;;
+14.2;Házikedvenc a konyhában;íllategészségügy;Engedély nélküli állat (pl. kutya, macska) jelenléte az élelmiszer-kezelõ területen.;;
+14.3;íllati melléktermék helytelen kezelése;íllategészségügy;Az állati melléktermékeket (pl. használt sütõolaj, konyhai hulladék) nem a jogszabályoknak megfelelõen (pl. jelölt, zárt edényben) gyûjtik és szállí­tják el.;;
+14.4;íllati melléktermék nem megfelelõ tárolása;íllategészségügy;Az állati melléktermékeket (pl. használt sütõolaj, konyhai hulladék) nem a jogszabályoknak megfelelõen (pl. jelölt, zárt edényben) gyûjtik és szállí­tják el.;;
+15.1;Sóúlyos keresztszennyezõdés;Sóúlyos Kockázat;Készétel közvetlen érintkezése nyers, szennyezett felülettel vagy alapanyaggal. Tipikus helyzet: a tálalásra kész süteményt a nyers hóús elõkészí­tésére használt pultra teszik.;;
+15.2;Teljes hûtõrendszer leállása;Sóúlyos Kockázat;A hûtõberendezések tartósan nem mûködnek, és a hûtést igénylõ élelmiszerek hõmérséklete meghaladja a megengedett értéket.;;
+15.3;Kiterjedt kártevõfertõzés;Sóúlyos Kockázat;Kiterjedt rágcsáló- vagy rovarfertõzés (pl. csótányok tömeges jelenléte), ami az élelmiszerek széleskörû szennyezõdését jelenti.;;
+15.4;Ismeretlen eredetû alapanyag;Sóúlyos Kockázat;Nagy mennyiségû, nyomonkövethetetlen, ismeretlen eredetû alapanyag (különösen hóús, hal) tárolása.;;Sóúlyos élelmiszerbiztonsági kockázat / Jelentõs bí­rság, a termék azonnali megsemmisí­tése, eljárás indí­tása.
+15.5;Szennyezett ví­z használata;Sóúlyos Kockázat;Nem ivóví­z minõségû ví­z használata élelmiszer-elõkészí­téshez, mosogatáshoz.;;Sóúlyos élelmiszerbiztonsági kockázat / Jelentõs bí­rság, azonnali bezárás.
+15.6;ételmérgezés gyanóúja;Sóúlyos Kockázat;ételmérgezéses megbetegedés gyanóúja esetén a hatóság azonnali értesí­tésének elmulasztása.;;Sóúlyos élelmiszerbiztonsági kockázat / Jelentõs bí­rság, tevékenység felfüggesztése, büntetõjogi eljárás.
+15.7;Ismeretlen eredetû hóús/hal;Sóúlyos Kockázat;íllati eredetû termék (különösen hóús, hal) nyomonkövethetõségének teljes hiánya.;;
+15.8;Sóúlyos higiéniai hiányosságok;Sóúlyos Kockázat;A konyha általános állapota olyan mértékben szennyezett (pl. vastag zsí­r, penész, ürülék), ami azonnali közegészségügyi kockázatot jelent.;;Sóúlyos élelmiszerbiztonsági kockázat / Jelentõs bí­rság, azonnali bezárás, tevékenység felfüggesztése.
+15.9;Penész/gomba a hûtõben;Sóúlyos Kockázat;Kiterjedt penész vagy gombafertõzés a hûtõkamrában vagy a tárolóhelyen.;;
+15.10;Sóúlyos hõkezelési hiba;Sóúlyos Kockázat;A hõkezelést igénylõ ételek (pl. hóús, tojás) nem érik el a megfelelõ maghõmérsékletet (pl. 75Â°C), ami baktériumok tóúlélését eredményezi.;;
