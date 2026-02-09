@@ -283,6 +283,25 @@
       gap: 0;
       height: calc(100vh - 73px);
       overflow: hidden;
+      min-width: 0; /* Prevent grid blowout */
+    }
+    
+    .image-panel {
+      background: var(--bg-tertiary);
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid var(--border);
+      min-width: 0; /* Prevent overflow */
+      overflow: hidden; /* Add this */
+    }
+    
+    .options-panel {
+      background: var(--bg-secondary);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      width: 500px; /* Ensure fixed width */
+      flex-shrink: 0; /* Prevent shrinking */
     }
 
     .image-panel {
@@ -300,8 +319,9 @@
       justify-content: center;
       padding: 2rem;
       position: relative;
+      width: 100%;
     }
-
+    
     .image-display img {
       max-width: 100%;
       max-height: calc(100vh - 300px);
@@ -309,6 +329,8 @@
       border-radius: 8px;
       box-shadow: var(--shadow-lg);
       animation: fadeIn 0.3s ease;
+      display: block;
+      margin: 0 auto;
     }
 
     .image-counter {
